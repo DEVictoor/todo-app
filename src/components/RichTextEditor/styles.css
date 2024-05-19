@@ -1,0 +1,95 @@
+.RichTextEditor h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.RichTextEditor h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.RichTextEditor h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.RichTextEditor h4 {
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.RichTextEditor h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.RichTextEditor h6 {
+  display: block;
+  font-size: 0.67em;
+  font-weight: bold;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* Lista no ordenada (ul) */
+.RichTextEditor ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+/* Lista ordenada (ol) */
+.RichTextEditor ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+.RichTextEditor a {
+  color: blue; /* Color del enlace no visitado */
+  text-decoration: underline; /* El enlace está subrayado */
+  cursor: pointer; /* El cursor cambia a una mano al pasar sobre el enlace */
+}
+.RichTextEditor p {
+  background-color: aqua;
+}
+.RichTextEditor .modalLink {
+  border: 2px solid #333; /* Color del borde y grosor */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espaciado interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
